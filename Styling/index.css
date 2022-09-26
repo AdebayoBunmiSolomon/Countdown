@@ -1,0 +1,92 @@
+body {
+  background: rgba(220, 20, 60, 0.945);
+  transition: ease-in-out 2s;
+}
+
+.body-dark-mode {
+  background-color: black;
+  transition: ease-in-out 2s;
+}
+
+* {
+  box-sizing: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+.main-span-default-mode {
+  background-color: white;
+  margin-top: 6%;
+  width: 60%;
+  border-radius: 15px;
+  box-shadow: 0px 40px 60px -20px rgba(0, 0, 0, 0.192);
+  transition: ease-in-out 2s;
+}
+
+.main-span-dark-mode {
+  background-color: rgba(39, 37, 37, 0.562);
+  margin-top: 6%;
+  width: 60%;
+  border-radius: 15px;
+  transition: ease-in-out 2s;
+}
+
+.txt-countdown-representation-default-mode {
+  color: black;
+  transition: ease-in-out 2s;
+}
+
+.txt-countdown-representation-dark-mode {
+  color: white;
+  transition: ease-in-out 2s;
+}
+
+.col-sm label {
+  color: crimson;
+  font-weight: 300;
+  font-size: 70px;
+}
+
+#txt-javascript-header {
+  padding-top: 20px;
+}
+
+#txt-javascript {
+  color: crimson;
+}
+
+#txt-stopwatch {
+  color: cornflowerblue;
+}
+
+#div-buttons button {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* Changes the "Dark mode" styling properties when dark mode takes effect in the JS File */
+.txt-dark-mode-default {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  transition: ease-in-out 3s;
+}
+
+.txt-dark-mode {
+  color: rgba(220, 20, 60, 0.945);
+  font-weight: 600;
+  font-size: 20px;
+  transition: ease-in-out 2s;
+}
+
+#toggle-icon {
+  color: yellow;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+#div-dark-mode-text {
+  padding-top: 15px;
+  margin-right: 10px;
+}
